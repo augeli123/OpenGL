@@ -1,6 +1,6 @@
 #支持qt的最小模板，分别使用freeglut3和glfw图形界面
 cmake_minimum_required (VERSION 3.0)
-project (Tutorials)
+project (glfw_gl)
 
 find_package(OpenGL REQUIRED)
 # Compile external dependencies 
@@ -24,6 +24,16 @@ set(ALL_LIBS
        
 )
 
+add_executable(triangle
+        src/triangle.cpp
+        common/shader.cpp
+        common/shader.hpp
+        src/SimpleFragmentShader.fragmentshader
+        src/SimpleVertexShader.vertexshader
+)
+target_link_libraries(triangle
+        ${ALL_LIBS}
+)
 
 add_executable(glfwwindow 
         src/glfwwindow.cpp
