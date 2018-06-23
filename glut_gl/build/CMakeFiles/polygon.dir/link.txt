@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/polygon.dir/src/polygon.cpp.o  -o polygon -rdynamic -lGLU -lGL -lglut 

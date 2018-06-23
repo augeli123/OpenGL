@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rosfun/git_ws/OpenGL/glut_gl/src/glutwindow.cpp
+stdio.h
+-
+stdlib.h
+-
+GL/freeglut.h
+-
+

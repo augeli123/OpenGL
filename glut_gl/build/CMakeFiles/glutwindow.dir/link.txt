@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/glutwindow.dir/src/glutwindow.cpp.o  -o glutwindow -rdynamic -lGLU -lGL -lglut 

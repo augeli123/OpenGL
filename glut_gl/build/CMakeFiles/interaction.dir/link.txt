@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/interaction.dir/src/interaction.cpp.o  -o interaction -rdynamic -lGLU -lGL -lglut 

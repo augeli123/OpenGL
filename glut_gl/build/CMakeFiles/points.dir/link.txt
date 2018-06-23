@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/points.dir/src/points.cpp.o  -o points -rdynamic -lGLU -lGL -lglut 

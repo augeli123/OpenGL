@@ -15,7 +15,30 @@ add_executable(glutwindow
 target_link_libraries(glutwindow
         ${ALL_LIBS}
 )
-
+add_executable(line
+        src/line.cpp
+)
+target_link_libraries(line
+        ${ALL_LIBS}
+)
+add_executable(points
+        src/points.cpp
+)
+target_link_libraries(points
+        ${ALL_LIBS}
+)
+add_executable(polygon
+        src/polygon.cpp
+)
+target_link_libraries(polygon
+        ${ALL_LIBS}
+)
+add_executable(interaction
+        src/interaction.cpp
+)
+target_link_libraries(interaction
+        ${ALL_LIBS}
+)
 
 #暂时还不清楚是什么的
 #SOURCE_GROUP(common REGULAR_EXPRESSION ".*/common/.*" )
